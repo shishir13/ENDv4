@@ -20,5 +20,9 @@ during the forward propagation.
 Loss helps us to understand how much the predicted value differs from actual value and the method to calculate the loss is called Loss function.
 
 ### 5. What is the "chain rule" in gradient flow?
+Since the goal of every ML problem is to minimize the cost function, we use optimization algorithms like gradient descent to find the derivatives
+in order to increase or decrease the weights. The chain rule is used to for calculating derivative of composite functions. If a variable `z` depends
+on the variable `y`, which itself depends on variable `x`, so that `y` and `z` are dependent variables, then `z`, via the intermediate variable of `y`, depends
+on `x` as well.
 
-
+source: https://towardsdatascience.com/understanding-the-mathematics-behind-gradient-descent-dde5dc9be06e

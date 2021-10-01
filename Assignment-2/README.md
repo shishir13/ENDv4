@@ -12,3 +12,12 @@
 
 ## 3. Steps involved in Backpropagation
 
+  #### Step 1 - Network inputs, target and weight initialization 
+  
+  `i1 = 0.05`, `i2 = 0.1`
+  
+  `a_o1 = 0.01`, `a_o2 = 0.99`
+  
+  `W1 = 0.15` , `W2 = 0.2` , `W3 = 0.25` , `W4 = 0.3` , `W5 = 0.4` , `W6 = 0.45` , `W7 = 0.5` , `W8 = 0.55`
+  
+

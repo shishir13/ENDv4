@@ -21,3 +21,6 @@
   `W1 = 0.15` , `W2 = 0.2` , `W3 = 0.25` , `W4 = 0.3` , `W5 = 0.4` , `W6 = 0.45` , `W7 = 0.5` , `W8 = 0.55`
   
 
+#### Network Diagram
+
+![image](https://user-images.githubusercontent.com/6522987/135616790-b7c714d3-f873-4773-b2f4-1cee0ec8e4d6.png)

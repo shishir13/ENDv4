@@ -24,3 +24,25 @@
 #### Network Diagram
 
 ![image](https://user-images.githubusercontent.com/6522987/135616790-b7c714d3-f873-4773-b2f4-1cee0ec8e4d6.png)
+
+#### Step 2 - Feed Forward Operation 
+  
+Inputs to the neurons are passed through the layer, until it arrives at the outputs and there is no feedback layer. In the above diagram we have 2 inputs, sigmoid is the activation function used.
+![image](https://user-images.githubusercontent.com/6522987/135621028-41ee2462-b339-443b-9ec8-66b8fde3753b.png)
+
+
+  
+  
+  
+  
+    h1 = w1*i1+w2*i2
+    h2 = w3*i1+w4*i2	
+    a_h1 = 𝝈(h1)	1/1+exp(-h1)	
+    a_h2 = 𝝈(h2)		
+    o1 = w5*a_h1+ w6*a_h2		
+    o2 = w7*a_h1 + w8*a_h2		
+    a_o1 = 𝝈(o1)		
+    a_o2 = 𝝈(o2)		
+    E1 = (1/2) * (t1-a_o1)^2 		
+    E1 = (1/2) * (t2-a_o2)^2 		
+    E_Total = E1 + E2		

@@ -1,6 +1,4 @@
-# My Assignments
-
-## Assignment - 1
+# Assignment - 1
 
 ### 1. What is a neural network neuron?
 A neuron in a neural network is a fundamental unit of our brain. These are inspired by the biological neurons composed one or more chemically connected neurons.

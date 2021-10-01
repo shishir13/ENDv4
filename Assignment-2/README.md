@@ -32,10 +32,7 @@ Inputs to the neurons are passed through the layer, until it arrives at the outp
 ![image](https://user-images.githubusercontent.com/6522987/135621028-41ee2462-b339-443b-9ec8-66b8fde3753b.png)
 
 
-  
-  
-  
-  
+
     h1 = w1*i1+w2*i2
     h2 = w3*i1+w4*i2	
     a_h1 = 𝝈(h1)	1/1+exp(-h1)	
@@ -47,3 +44,28 @@ Inputs to the neurons are passed through the layer, until it arrives at the outp
     E1 = (1/2) * (t1-a_o1)^2 		
     E1 = (1/2) * (t2-a_o2)^2 		
     E_Total = E1 + E2		
+
+
+
+  #### Step 3 - Backpropagation 
+  
+  Backpropagation is a direct application of the calculus chain rule. It is a widely used method for calculating derivatives inside 
+  deep neural networks. Backpropagation forms an important part of a number of supervised learning algorithms for training 
+  feedforward neural networks, such as stochastic gradient descent.
+  
+  ![image](https://user-images.githubusercontent.com/6522987/135621966-86d68db3-f1f4-45e0-a548-f817c0a49bd5.png)
+
+
+  We update the weights to find the values of 𝜕E_t/𝜕w. In this case we have weights from `W1` to `W8`. We can replace it in the gradient descent equation to update the weights     for every epoch during training.
+
+
+
+    𝜕E_t/𝜕w1 = (𝜕ET/𝜕a_h1) * (a_h1) * (1-a_h1) * i1				
+    𝜕E_t/𝜕w2 = (𝜕ET/𝜕a_h1) * (a_h1) * (1-a_h1) * i2				
+    𝜕E_t/𝜕w3 = (𝜕ET/𝜕a_h2) * (a_h2) * (1-a_h2) * i1				
+    𝜕E_t/𝜕w4 = (𝜕ET/𝜕a_h2) * (a_h2) * (1-a_h2) * i2	
+    𝜕E_t/𝜕w5 = (a_o1-t1) * a_o1 * (1-a_o1) * a_h1				
+    𝜕E_t/𝜕w6 = (a_o1-t1) * a_o1 * (1-a_o1) * a_h2				
+    𝜕E_t/𝜕w7 = (a_o2-t2) * a_o2 * (1-a_o2) * a_h1				
+    𝜕E_t/𝜕w8 = (a_o2-t1) * a_o2 * (1-a_o2) * a_h2		
+  

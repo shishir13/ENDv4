@@ -28,6 +28,7 @@
 #### Step 2 - Feed Forward Operation 
   
 Inputs to the neurons are passed through the layer, until it arrives at the outputs and there is no feedback layer. In the above diagram we have 2 inputs, sigmoid is the activation function used.
+
 ![image](https://user-images.githubusercontent.com/6522987/135621028-41ee2462-b339-443b-9ec8-66b8fde3753b.png)
 
 

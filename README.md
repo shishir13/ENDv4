@@ -2,5 +2,5 @@
 
 ## [Assignment - 1](https://github.com/shishir13/ENDv4/blob/main/Assignment-1/README.md)
 
-## [Assignment - 2]()
+## [Assignment - 2](https://github.com/shishir13/ENDv4/blob/main/Assignment-2/README.md)
 
